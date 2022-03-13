@@ -2,7 +2,7 @@
 
 1. [x] Basic setup 
 2. [x] Adding the API and HTML Hydration
-3. [ ]Making the Figma
+3. [ ] Making the Figma
 4. Implimenting the login and storing of cookie
 5. Setting up SWR
 6. Setting Up SCSS and styling dependencies, fonts, variables, colors
