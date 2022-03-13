@@ -1,4 +1,4 @@
-import { getAllPosts, getPosts } from "../lib/api"
+import { getBestPosts, getPosts } from "../../lib/api"
 
 type Props = {
   posts: any
@@ -10,7 +10,7 @@ const Post = ({ posts }: Props) => {
 }
 
 export async function getStaticProps() {
-  const list = await getAllPosts()
+  const list = await getBestPosts()
   const posts = await getPosts(list.posts.slice(0, 20))
   return {
     props: {
